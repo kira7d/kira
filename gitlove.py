@@ -37,14 +37,45 @@
 
 # a = list(map(str,input().split()))
 # for i in range(len(a)):
-#     a[i] = len(a[i])
+#    a[i] = len(a[i])
 # print(*a)
+
+# a = ["киев" , "Одесса"]
+# for i in range(len(a)):
+#     print(i, end = " ")
 
 # a = 0
 # for i in range(12):
+#     print(i, end = " ")
 #     if i % 2 == 0:
+#      a += i
+# print(a)
+
+# n = int(input())
+# for i in range(2,n):
+#      if n % i == 0:
+#          print("да")
+#          break
+# else:
+#     print("нет")
+
+# n = int(input())
+# a = 0
+# for i in range(1,n):
+#     if i % 3 == 0 or i % 5 == 0:
 #         a += i
 # print(a)
+
+n,m = map(int, input().split())
+b = []
+while n <= m:
+    b.append(n**2)
+    n = n+1
+print(*b)
+
+
+
+
 
 
 
