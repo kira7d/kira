@@ -66,12 +66,26 @@
 #         a += i
 # print(a)
 
-n,m = map(int, input().split())
-b = []
-while n <= m:
-    b.append(n**2)
-    n = n+1
-print(*b)
+# n,m = map(int, input().split())
+# b = []
+# while n <= m:
+#     b.append(n**2)
+#     n = n+1
+# print(*b)
+
+# Домашнее заданиe:
+a = ["ustanovka-i-zapusk-yazyka",
+"ustanovka-i-poryadok-raboty-pycharm",
+"peremennyye-operator-prisvaivaniya-tipy-dannykh",
+"arifmeticheskiye-operatsii",
+"ustanovka-i-poryadok-raboty-pycharm"]
+b = {}
+for i in a:
+    if i in b:
+        print(f"Взято из кэша: HTML-страница для адреса {i}")
+    else:
+        b[i] = f"HTML-страница для адреса {i}"
+        print(b[i])
 
 
 
