@@ -87,7 +87,26 @@ for i in a:
         b[i] = f"HTML-страница для адреса {i}"
         print(b[i])
 
+# д/з :
 
+
+# def rectangle(width, height):
+#     print(f"Периметр прямоугольника, равен {2 * (width + height)}")
+#
+# rectangle(8,11)
+
+
+# def letter(email):
+#     a = input()
+#     return "ДА" if "@" and "." in a else "НЕТ"
+#
+# print(letter(input().split()))
+
+# def parity(x):
+#     a = [x for i in range(0, x, 3)]
+#     lst = list(map(int,input().split()))
+#     return a and lst
+# print(parity())
 
 
 
