@@ -111,6 +111,19 @@ for i in a:
 
 
 
+# Д/з:
+#  1:
+
+def city(x):
+    return x if len(x) >= 6 else False
+
+a = list(map(str,input().split()))
+lst = [i for i in a if city(i)]
+print(*lst)
+
+
+
+
 
 
 
