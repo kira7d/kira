@@ -112,6 +112,7 @@ for i in a:
 
 
 # Д/з:
+
 #  1:
 
 def city(x):
@@ -121,6 +122,17 @@ a = list(map(str,input().split()))
 lst = [i for i in a if city(i)]
 print(*lst)
 
+
+# 2:
+
+def city(word):
+    return word, len(word)
+
+lst = list(map(str,input().split()))
+d = {city(x)[0]: city(x)[1] for x in lst}
+a = sorted(d,key=lambda x: d[x])
+
+print(*a)
 
 
 
